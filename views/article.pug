@@ -1,0 +1,8 @@
+mixin article(title)
+	.article(style="text-align:center")
+		.article-wrapper
+			h1=title
+			if block
+				block
+			else
+				p No Content provided
